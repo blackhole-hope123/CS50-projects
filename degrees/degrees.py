@@ -85,7 +85,9 @@ def main():
 
 
 endNode = None
+
 # lvlTable to keep track of depth of nodes
+
 lvlTable = {}
 lvl = 1
 
