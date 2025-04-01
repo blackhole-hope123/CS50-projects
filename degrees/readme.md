@@ -1,8 +1,8 @@
-## Description (H2)
+## Description
 
 This project is the first project in Week 0. The program uses Breadth-First Search (BFS) to determine the smallest degree of separation between two actors in a movie database.
 
-## How It Works (H2)
+## How It Works
 
 1.	The program loads a dataset of actors and movies.
 2.	It constructs a graph where:
@@ -11,7 +11,7 @@ This project is the first project in Week 0. The program uses Breadth-First Sear
 3.	It takes two actor names as input and finds the shortest path (degrees of separation) between them.
 4.	The result is displayed as a sequence of actor-movie connections.
 
-Running the Program
+## Running the Program
 
 1.	Clone the repository:
 ```bash
@@ -41,7 +41,7 @@ Output:
 2: Julia Roberts and Natalie Portman starred in Closer
 ```
 
-## File Structure (H2)
+## File Structure
 
 -	degrees.py: Main program that finds the shortest path.
 -	util.py: Helper functions for implementing BFS.
@@ -49,10 +49,10 @@ Output:
 -	small/ : Folder containing a small test database.
 -	README.md: Project documentation.
 
-## Concepts Used (H2)
+## Concepts Used 
 -	Breadth-First Search (BFS): The reason to use BFS here is that it will guarantee us to find the shortest path.
 -	Data Structures: Sets, dictionaries, and queues.
 
-## Acknowledgement (H2)
+## Acknowledgement 
 This project is part of CS50’s AI Course by Harvard University.
 
