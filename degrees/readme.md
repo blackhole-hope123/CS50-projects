@@ -1,6 +1,6 @@
 ## Description
 
-This project is the first project in Week 0. The program uses Breadth-First Search (BFS) to determine the smallest degree of separation between two actors in a movie database.
+This project is the first project in Week 0. The program uses Breadth-First Search (BFS) to determine the smallest degree of separation between two actors in a movie database, as BFS will guarantee us to find the shortest path.
 
 ## How It Works
 
