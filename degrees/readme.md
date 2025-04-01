@@ -44,7 +44,6 @@ Output:
 ## File Structure
 
 -	degrees.py: Main program that finds the shortest path.
--	util.py: Helper functions for implementing BFS.
 -	large/ : Folder containing a large movie database.
 -	small/ : Folder containing a small test database.
 -	README.md: Project documentation.
