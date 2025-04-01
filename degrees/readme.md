@@ -15,8 +15,8 @@ Running the Program
 
 1.	Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/CS50-AI-Degrees.git
-cd CS50-AI-Degrees
+git clone https://github.com/blackhole-hope123/CS50-projects.git
+cd path/CS50-projects
 ```
 
 2.	Run the program:
