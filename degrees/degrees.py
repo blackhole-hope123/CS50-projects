@@ -85,6 +85,7 @@ def main():
 
 
 endNode = None
+# lvlTable to keep track of depth of nodes
 lvlTable = {}
 lvl = 1
 
@@ -106,19 +107,23 @@ def shortest_path(source, target):
     nextFrontier = deque([])
     
     # the reason to use bfs here is because bfs can guarantee that the shortest path is found
+    # keep track of visited nodes to avoid loop in the tree (used implicitly)
     def bfs(visited,curr,nxt):
         global endNode
         global lvl
         global lvlTable
         if len(curr)==0:
             if len(nxt)==0:
+                # no children
                 return
             else:
+                # proceed to the next level of the tree
                 lvl+=1
                 curr=nxt
                 nxt=deque()
                 bfs(visited, curr, nxt)
         else:
+            #update the lvlTable accordingly
             node=curr.popleft()
             neighbors=neighbors_for_person(node[1])
             if lvl==1:
