@@ -16,7 +16,7 @@ This project is the first project in Week 0. The program uses Breadth-First Sear
 1.	Clone the repository:
 ```bash
 git clone https://github.com/blackhole-hope123/CS50-projects.git
-cd path/CS50-projects
+cd path/CS50-projects/degrees
 ```
 
 2.	Run the program:
