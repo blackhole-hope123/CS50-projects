@@ -26,6 +26,8 @@ python runner.py
 
 An example video:
 
+![Demo GIF](demo.gif)
+
 
 
 ## File Structure
