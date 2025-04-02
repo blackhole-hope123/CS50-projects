@@ -50,7 +50,7 @@ Output:
 
 ## Concepts Used 
 -	Breadth-First Search (BFS): The reason to use BFS here is that it will guarantee us to find the shortest path.
--	Data Structures: Sets, dictionaries, and queues.
+-	Data Structures: Sets, dictionaries, queues, and trees (implicitly).
 
 ## Acknowledgement 
 This project is part of CS50’s AI Course by Harvard University.
