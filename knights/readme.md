@@ -30,7 +30,7 @@ Output:
 
 ## File Structure
 
--	logic.py: 
+-	logic.py: Helper functions for solving the logic puzzle.
 -	puzzle.py: Main program to solve the logic puzzle. 
 -	README.md: Project documentation.
 -	Question.md: Some questions of mine
