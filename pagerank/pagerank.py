@@ -148,10 +148,6 @@ def iterate_pagerank(corpus, damping_factor):
                 updatable=True
                 initial=updated.copy()
     return updated
-'''
-if __name__ == "__main__":
-    main()'''
 
-table={'1': {'2'}, '2': {'1', '3'}, '3': {'5', '4', '2'}, '4': {'1', '2'}, '5': set()}
-print(sample_pagerank(table,DAMPING,10000))
-print(iterate_pagerank(table,0.85))
+if __name__ == "__main__":
+    main()
